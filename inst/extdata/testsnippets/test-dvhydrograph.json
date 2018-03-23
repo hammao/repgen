@@ -466,8 +466,8 @@
             "firstStatDerivedLabel": "Gage height.ft.Mean1@02362000",
             "secondReferenceTimeSeriesLabel": "Gage height.ft.Mean@02362000",
             "excludeMinMax": false,
-			"excludeZeroNegative": false,
-			"excludeDiscrete": false,
+            "excludeZeroNegative": false,
+            "excludeDiscrete": false,
             "primarySeriesLabel": "Gage height.ft@02362000",
             "startDate": "2017-01-10T00:00:00Z",
 			"qualifierMetadata": {
@@ -900,7 +900,7 @@
             "primarySeriesLabel": "Discharge.ft^3/s@01054200",
             "excludeZeroNegative": true,
             "excludeMinMax": false,
-			"excludeDiscrete": false
+            "excludeDiscrete": false
         },
         "primarySeriesApprovals": [
             {
@@ -1017,7 +1017,7 @@
             "primarySeriesLabel": "Discharge.ft^3/s@01054200",
             "excludeMinMax": false,
             "excludeZeroNegative": false,
-			"excludeDiscrete": false
+            "excludeDiscrete": false
         },
         "primarySeriesApprovals": [
             {
