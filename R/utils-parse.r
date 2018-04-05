@@ -61,8 +61,8 @@ parseMinMaxIV <- function(reportObject, stat, timezone, tsType, inverted){
 #' logged Y-Axis.
 parseMinMaxIVs <- function(reportObject, timezone, type, invertedFlag, excludeMinMaxFlag, excludeZeroNegativeFlag){
   #Get max and min IV points
-  max_iv <- parseMinMaxIV(reportObject, "MAX", timezone, type, invertedFlag)
-  min_iv <- parseMinMaxIV(reportObject, "MIN", timezone, type, invertedFlag)
+  max_iv <- parseMinMaxIV(reportObject, "max", timezone, type, invertedFlag)
+  min_iv <- parseMinMaxIV(reportObject, "min", timezone, type, invertedFlag)
   returnList <- NULL
 
   #Make sure at least one value is valid

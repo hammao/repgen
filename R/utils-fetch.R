@@ -126,8 +126,8 @@ fetchCorrections <- function(reportObject, seriesCorrName){
 #' @param reportObject the full report data
 #' @param stat 'MIN' or 'MAX' data to select
 fetchMinMaxIVs <- function(reportObject, stat){
-  stat <- toupper(stat)
-  stat_val <- reportObject[['maxMinData']][['seriesTimeSeriesPoints']][[1]][['theseTimeSeriesPoints']][[stat]]
+  stat <- stat
+  stat_val <- reportObject[['maxMinData']][[stat]]
   return(stat_val)
 }
 

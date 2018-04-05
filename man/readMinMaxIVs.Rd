@@ -9,7 +9,7 @@ readMinMaxIVs(reportObject, stat, timezone, inverted)
 \arguments{
 \item{reportObject}{the full JSON report object}
 
-\item{stat}{the stat to pull (MAX or MIN)}
+\item{stat}{the stat to pull (max or min)}
 
 \item{timezone}{the timezone to parse times into}
 
